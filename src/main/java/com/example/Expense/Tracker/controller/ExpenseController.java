@@ -1,7 +1,7 @@
 package com.example.Expense.Tracker.controller;
 
 import com.example.Expense.Tracker.Entity.Expense;
-import com.example.Expense.Tracker.ExpenseService;
+import com.example.Expense.Tracker.services.ExpenseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
