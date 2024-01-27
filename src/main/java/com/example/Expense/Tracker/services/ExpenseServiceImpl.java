@@ -1,13 +1,14 @@
-package com.example.Expense.Tracker;
+package com.example.Expense.Tracker.services;
 
 import com.example.Expense.Tracker.Entity.Expense;
+import com.example.Expense.Tracker.Repo.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class ExpenseServiceImpl implements ExpenseService{
+public class ExpenseServiceImpl implements ExpenseService {
     @Autowired
     private ExpenseRepository expenseRepo;
 

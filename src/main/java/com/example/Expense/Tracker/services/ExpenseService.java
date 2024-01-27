@@ -1,4 +1,4 @@
-package com.example.Expense.Tracker;
+package com.example.Expense.Tracker.services;
 
 import com.example.Expense.Tracker.Entity.Expense;
 
